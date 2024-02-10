@@ -1,5 +1,5 @@
 import { useCallback } from "react";
-import GroupComponent from "./GroupComponent";
+import GroupComponent from "./GroupComponent/GroupComponent";
 import "./MarkerSquare.css";
 
 const MarkerSquare = () => {

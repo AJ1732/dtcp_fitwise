@@ -1,4 +1,4 @@
-import ContactUsBlog from "./ContactUsBlog";
+import ContactUsBlog from "./ContactUsBlog/ContactUsBlog";
 import "./MeetFitwisePlatform.css";
 
 const MeetFitwisePlatform = () => {

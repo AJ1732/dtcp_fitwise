@@ -1,9 +1,9 @@
-import MarkerSquare from "../components/MarkerSquare";
-import RectangleBackground from "../components/RectangleBackground";
-import Rectangle from "../components/Rectangle";
-import MeetFitwisePlatform from "../components/MeetFitwisePlatform";
-import FrameComponent1 from "../components/FrameComponent1";
-import FrameComponent from "../components/FrameComponent";
+import MarkerSquare from "../components/MarkerSquare/MarkerSquare";
+import RectangleBackground from "../components/RectangleBackground/RectangleBackground";
+import Rectangle from "../components/Rectangle/Rectangle";
+import MeetFitwisePlatform from "../components/MeetFitwisePlatform/MeetFitwisePlatform";
+import FrameComponent1 from "../components/FrameComponent1/FrameComponent1";
+import FrameComponent from "../components/FrameComponent/FrameComponent";
 import "./FitwiseLandingPage.css";
 
 const FitwiseLandingPage = () => {
