@@ -1,0 +1,77 @@
+.diet-plan-child {
+  height: 250px;
+  width: 350px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornsilk);
+  box-shadow: 0 60px 80px -32px rgba(0, 0, 0, 0.06);
+  display: none;
+  max-width: 100%;
+}
+.newsletter-sponsoring-contact {
+  height: 230px;
+  width: 310px;
+  position: relative;
+  border-radius: var(--br-7xs) var(--br-7xs) 0 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.diet-plan {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornsilk);
+  box-shadow: 0 60px 80px -32px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.eating-a-balanced {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 34px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.think-vibrant-fruits {
+  width: 320px;
+  height: 96px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.01em;
+  line-height: 32px;
+  font-weight: 500;
+  color: var(--color-slategray);
+  display: inline-block;
+}
+.contact-us-blog,
+.eating-a-balanced-diet-to-main-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.eating-a-balanced-diet-to-main-parent {
+  align-self: stretch;
+  gap: var(--gap-mini);
+}
+.contact-us-blog {
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .eating-a-balanced {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+}

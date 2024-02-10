@@ -1,0 +1,565 @@
+.button-shape-rectangle-child {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.home {
+  height: 21px;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 2;
+}
+.frame-contact-us-name-hilton-s {
+  height: 4px;
+  width: 13px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--color-darkorchid-100);
+  z-index: 2;
+}
+.frame-pet-products {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 var(--padding-sm);
+}
+.frame-vintage-shop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  color: var(--color-black);
+}
+.about,
+.blog,
+.experiences {
+  height: 21px;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 2;
+}
+.blog-article-frame {
+  width: 330px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-23xl);
+  max-width: 100%;
+}
+.fitwise {
+  margin: 0;
+  height: 36px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-steelblue-200);
+  text-align: center;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 2;
+}
+.label-menu-item-text,
+.separator-line-text {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.separator-line-text {
+  margin: 0;
+  width: 1134px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-slategray);
+  font-family: var(--font-poppins);
+}
+.label-menu-item-text {
+  width: 1179px;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.button-shape-rectangle-item {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin: 0 !important;
+  top: 32px;
+  right: 137.5px;
+  z-index: 3;
+}
+.get-periodic-wellness,
+.improve-your-overall {
+  position: relative;
+  letter-spacing: -0.01em;
+  z-index: 2;
+}
+.improve-your-overall {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 64px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.get-periodic-wellness {
+  width: 509px;
+  height: 64px;
+  font-size: var(--font-size-lg);
+  line-height: 32px;
+  font-weight: 500;
+  color: var(--color-slategray);
+  display: inline-block;
+  max-width: 100%;
+}
+.expert-coaching-session-frame {
+  width: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: calc(100% - 38px);
+}
+.instagram,
+.twitter {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  transform: rotate(-90deg);
+  z-index: 2;
+}
+.frame-training,
+.rectangle-vitamins {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-vitamins {
+  align-self: stretch;
+  gap: var(--gap-31xl);
+}
+.frame-training {
+  width: 18px;
+  padding: var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-slategray);
+}
+.ancient-practice-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.frame-item {
+  height: 70px;
+  width: 210px;
+  position: relative;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-steelblue-200);
+  box-shadow: 0 20px 30px -16px rgba(103, 46, 188, 0.3);
+  display: none;
+}
+.frame-inner,
+.get-started {
+  position: relative;
+  z-index: 1;
+}
+.get-started {
+  height: 27px;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: right;
+  display: inline-block;
+}
+.frame-inner {
+  height: 26px;
+  width: 26px;
+  object-fit: contain;
+}
+.lets-talk-frame,
+.rectangle-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xl) var(--padding-17xl) var(--padding-2xl)
+    var(--padding-16xl);
+  background-color: var(--color-steelblue-200);
+  border-radius: var(--br-16xl);
+  box-shadow: 0 20px 30px -16px rgba(103, 46, 188, 0.3);
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  white-space: nowrap;
+  z-index: 2;
+}
+.rectangle-parent:hover {
+  background-color: var(--color-steelblue-100);
+}
+.lets-talk-frame {
+  flex-direction: column;
+  padding: var(--padding-23xl) 0 0;
+}
+.facebook {
+  width: 18px;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  display: inline-block;
+  transform: rotate(-90deg);
+  z-index: 2;
+}
+.nutrition-weight-loss-frame {
+  width: 725px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  margin-top: -2px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-slategray);
+}
+.frame-positive-thinking {
+  width: 940px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.balance-diet-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-116xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-title-child {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  object-fit: contain;
+  z-index: 2;
+}
+.button-shape-rectangle,
+.frame-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button-shape-rectangle {
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-lgi) var(--padding-81xl) var(--padding-127xl)
+    var(--padding-36xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-96xl);
+  max-width: 100%;
+  font-size: var(--font-size-35xl);
+  color: var(--color-gray-100);
+}
+.wrapper-rectangle-10-child {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 54px;
+  transform: scale(1.318);
+}
+.wrapper-rectangle-10 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.meditation-exercise {
+  margin: 0;
+  height: 45px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.title-tag-text,
+.wrapper-rectangle-10-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.wrapper-rectangle-10-parent {
+  align-items: flex-end;
+  padding: var(--padding-21xl) var(--padding-25xl) var(--padding-21xl)
+    var(--padding-26xl);
+  position: relative;
+  z-index: 2;
+}
+.title-tag-text {
+  height: 340px;
+  align-items: flex-start;
+  padding: 0 var(--padding-791xl) 0 var(--padding-xl);
+  margin-top: -338px;
+}
+.wrapper-rectangle-10-item {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 54px;
+  transform: scale(1.318);
+}
+.wrapper-rectangle-101 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.get-a-coach {
+  margin: 0;
+  height: 45px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.title-tag-text1,
+.wrapper-rectangle-10-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.wrapper-rectangle-10-group {
+  align-self: stretch;
+  width: 380px;
+  align-items: flex-end;
+  padding: var(--padding-21xl);
+  position: relative;
+  z-index: 2;
+}
+.title-tag-text1 {
+  width: 550px;
+  height: 340px;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  margin-top: -338px;
+}
+.wrapper-rectangle-10-inner {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 54px;
+  transform: scale(1.318);
+}
+.wrapper-rectangle-102 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.health-tips {
+  margin: 0;
+  height: 45px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.title-tag-text2,
+.wrapper-rectangle-10-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.wrapper-rectangle-10-container {
+  align-self: stretch;
+  width: 380px;
+  align-items: flex-end;
+  padding: var(--padding-21xl) var(--padding-xl) var(--padding-21xl)
+    var(--padding-2xl);
+  position: relative;
+  z-index: 2;
+}
+.title-tag-text2 {
+  width: 1390px;
+  height: 340px;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  margin-top: -338px;
+}
+.marker-square {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .title-tag-text {
+    padding-right: var(--padding-386xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .improve-your-overall {
+    font-size: var(--font-size-24xl);
+    line-height: 51px;
+  }
+  .get-a-coach,
+  .health-tips,
+  .meditation-exercise {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .blog-article-frame {
+    display: none;
+  }
+  .separator-line-text {
+    width: 804px;
+  }
+  .button-shape-rectangle {
+    gap: var(--gap-96xl);
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .title-tag-text {
+    padding-right: var(--padding-183xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .blog-article-frame {
+    gap: var(--gap-23xl);
+  }
+  .improve-your-overall {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .button-shape-rectangle {
+    gap: var(--gap-96xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .meditation-exercise {
+    font-size: var(--font-size-lg);
+  }
+  .wrapper-rectangle-10-parent {
+    padding-left: var(--padding-xl);
+  }
+  .title-tag-text,
+  .wrapper-rectangle-10-parent {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .get-a-coach,
+  .health-tips {
+    font-size: var(--font-size-lg);
+  }
+}

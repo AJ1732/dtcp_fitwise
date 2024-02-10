@@ -1,0 +1,53 @@
+.register {
+  height: 21px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.frame-child {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  object-fit: contain;
+}
+.register-parent,
+.submit-button-shape {
+  display: flex;
+  justify-content: flex-start;
+}
+.register-parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-18xl) var(--padding-smi)
+    var(--padding-19xl);
+  background-color: var(--color-steelblue-200);
+  border-radius: var(--br-19xl);
+  box-shadow: 0 20px 30px -16px rgba(103, 46, 188, 0.4);
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-xs);
+}
+.register-parent:hover {
+  background-color: var(--color-steelblue-100);
+}
+.submit-button-shape {
+  width: 35px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.submit-button-shape-wrapper {
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 2;
+}

@@ -1,0 +1,322 @@
+.fitwise1,
+.lets-talk1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  font-family: inherit;
+}
+.lets-talk1 {
+  line-height: 54px;
+}
+.fitwise1 {
+  height: 36px;
+  text-transform: uppercase;
+  display: inline-block;
+  z-index: 1;
+}
+.anywhere-geo-planet,
+.hellofitwisecom,
+.p {
+  margin: 0;
+}
+.hellofitwisecom-anywhere-ge-container {
+  height: 96px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.01em;
+  line-height: 32px;
+  font-weight: 500;
+  color: var(--color-slategray);
+  text-align: left;
+  display: inline-block;
+}
+.fitwise-logo,
+.lets-talk-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fitwise-logo {
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-steelblue-200);
+}
+.lets-talk-parent {
+  padding: 0 var(--padding-98xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-8xl);
+  max-width: 100%;
+  font-size: var(--font-size-25xl);
+  color: var(--color-gray-100);
+}
+.what-we-do {
+  margin: 0;
+  height: 33px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.meditation-exercise1 {
+  height: 24px;
+  display: inline-block;
+}
+.expert-coach,
+.goal-tracking1,
+.health-tips1,
+.meditation-exercise1 {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+.blog-frame,
+.news-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.blog-frame {
+  gap: var(--gap-mini);
+  font-size: var(--font-size-base);
+  color: var(--color-slategray);
+}
+.news-heading {
+  gap: var(--gap-13xl);
+  min-width: 153px;
+}
+.blog1,
+.news1 {
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.news1 {
+  margin: 0;
+  align-self: stretch;
+  height: 33px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.blog1 {
+  font-weight: 500;
+}
+.blog1,
+.testimonials {
+  cursor: pointer;
+}
+.intro-video,
+.sneak-peek,
+.testimonials {
+  height: 24px;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  display: inline-block;
+}
+.blog-parent {
+  flex-direction: column;
+  gap: var(--gap-mini);
+  font-size: var(--font-size-base);
+  color: var(--color-slategray);
+}
+.blog-parent,
+.news-heading1,
+.what-we-do-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.news-heading1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-13xl);
+  min-width: 153px;
+}
+.what-we-do-frame {
+  width: 400px;
+  flex-direction: row;
+  gap: var(--gap-78xl);
+  max-width: 100%;
+}
+.about-us,
+.fashion {
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.fashion {
+  margin: 0;
+  align-self: stretch;
+  height: 33px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.about-us {
+  font-weight: 500;
+  cursor: pointer;
+}
+.about-us,
+.careers,
+.contact-us {
+  height: 24px;
+  display: inline-block;
+}
+.careers,
+.contact-us,
+.legal-privacy {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+.about-us-parent,
+.fashion-text,
+.welcome-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.about-us-parent {
+  gap: var(--gap-mini);
+  font-size: var(--font-size-base);
+  color: var(--color-slategray);
+}
+.fashion-text,
+.welcome-frame {
+  width: 150px;
+  gap: var(--gap-13xl);
+}
+.welcome-frame {
+  width: 1117px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.about-us-contact-careers-legal-child {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.facebook-icon,
+.instagram-icon,
+.linkedin-icon,
+.twitter-icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 32px;
+}
+.allrightsreservedby-fitwise {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.all-rights-reserved {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+.about-us-contact-careers-legal,
+.frame-facebook-instagram-twitt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.about-us-contact-careers-legal {
+  align-self: stretch;
+  gap: var(--gap-31xl);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-slategray);
+}
+.fitwise-platform,
+.fitwise-platform-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.fitwise-platform {
+  width: 1170px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-63xl);
+}
+.fitwise-platform-wrapper {
+  width: 1344px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-midnightblue);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .fitwise-platform {
+    gap: var(--gap-63xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .lets-talk1 {
+    font-size: var(--font-size-16xl);
+    line-height: 43px;
+  }
+  .welcome-frame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .about-us-contact-careers-legal {
+    gap: var(--gap-31xl);
+  }
+  .fitwise-platform {
+    gap: var(--gap-63xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .lets-talk1 {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .fitwise1 {
+    font-size: var(--font-size-lgi);
+  }
+  .lets-talk-parent {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .what-we-do {
+    font-size: var(--font-size-lg);
+  }
+  .news-heading {
+    flex: 1;
+  }
+  .news1 {
+    font-size: var(--font-size-lg);
+  }
+  .what-we-do-frame {
+    flex-wrap: wrap;
+    gap: var(--gap-78xl);
+  }
+  .fashion {
+    font-size: var(--font-size-lg);
+  }
+}

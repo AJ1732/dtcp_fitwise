@@ -1,0 +1,189 @@
+.closer-lifestyle-landing-page,
+.closer-lifestyle-landing-page-child {
+  background: linear-gradient(
+    180deg,
+    rgba(252, 251, 247, 0.2),
+    rgba(250, 247, 240, 0.56) 64.48%,
+    rgba(249, 245, 236, 0)
+  );
+}
+.closer-lifestyle-landing-page-child {
+  align-self: stretch;
+  height: 1750px;
+  position: relative;
+  display: none;
+}
+.closer-lifestyle-landing-page {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 103px;
+  box-sizing: border-box;
+  gap: var(--gap-128xl);
+  max-width: 100%;
+}
+.parent-meditation-icon,
+.wrapper-parent-meditation {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+}
+.parent-meditation-icon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  top: 54px;
+  transform: scale(1.318);
+}
+.wrapper-parent-meditation {
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-3xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.art-music {
+  margin: 0;
+  height: 45px;
+  width: 170px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 3;
+}
+.platform-name,
+.sneak-peek-btn {
+  width: 380px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.platform-name {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-21xl);
+  position: relative;
+  max-width: -131%;
+  flex-shrink: 0;
+}
+.sneak-peek-btn {
+  height: 545px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 335px 205px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+}
+.fitwise-landing-page-child {
+  width: 210px;
+  height: 70px;
+  position: relative;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-steelblue-200);
+  box-shadow: 0 20px 30px -16px rgba(103, 46, 188, 0.3);
+  display: none;
+  z-index: 3;
+}
+.read-more {
+  height: 27px;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  display: none;
+  z-index: 4;
+}
+.fitwise-landing-page-item {
+  width: 210px;
+  height: 70px;
+  position: relative;
+  border-radius: var(--br-16xl);
+  background-color: #b2cae6;
+  box-shadow: 0 20px 30px -16px rgba(103, 46, 188, 0.3);
+  display: none;
+  z-index: 6;
+}
+.learn-more {
+  height: 27px;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  display: none;
+  white-space: nowrap;
+  z-index: 7;
+}
+.fitwise-landing-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 666px 0 28px var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-117xl);
+  letter-spacing: normal;
+  text-align: right;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1050px) {
+  .art-music {
+    font-size: var(--font-size-5xl);
+  }
+  .sneak-peek-btn {
+    padding-left: var(--padding-148xl);
+    padding-right: var(--padding-148xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .closer-lifestyle-landing-page {
+    gap: var(--gap-128xl);
+  }
+  .sneak-peek-btn {
+    padding-left: var(--padding-64xl);
+    padding-right: var(--padding-64xl);
+    padding-bottom: 133px;
+    box-sizing: border-box;
+  }
+  .fitwise-landing-page {
+    gap: var(--gap-117xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .closer-lifestyle-landing-page {
+    gap: var(--gap-128xl);
+  }
+  .art-music {
+    font-size: var(--font-size-lg);
+  }
+  .sneak-peek-btn {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .fitwise-landing-page {
+    gap: var(--gap-117xl);
+  }
+}
