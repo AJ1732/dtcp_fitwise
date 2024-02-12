@@ -261,8 +261,8 @@
 .fitwise-platform-wrapper {
   width: 1344px;
   flex-direction: row;
-  justify-content: center;
-  padding: 0 var(--padding-xl);
+  /* justify-content: center;
+  padding: 0 var(--padding-xl); */
   box-sizing: border-box;
   text-align: left;
   font-size: var(--font-size-3xl);

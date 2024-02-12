@@ -15,6 +15,8 @@ const FitwiseLandingPage = () => {
         <RectangleBackground />
       </section>
       <div className="sneak-peek-btn">
+      </div>
+      {/* <div className="sneak-peek-btn">
         <div className="platform-name">
           <div className="wrapper-parent-meditation">
             <img
@@ -26,7 +28,7 @@ const FitwiseLandingPage = () => {
           </div>
           <h2 className="art-music">{`Art & Music`}</h2>
         </div>
-      </div>
+      </div> */}
       <Rectangle />
       <div className="fitwise-landing-page-child" />
       <div className="read-more">Read more</div>
