@@ -14,6 +14,7 @@ const FitwiseLandingPage = () => {
         <MarkerSquare />
         <RectangleBackground />
       </section>
+      
       <div className="sneak-peek-btn">
       </div>
       {/* <div className="sneak-peek-btn">
@@ -32,10 +33,16 @@ const FitwiseLandingPage = () => {
       <Rectangle />
       <div className="fitwise-landing-page-child" />
       <div className="read-more">Read more</div>
+
+      {/* DIVE DEEPER SECTION */}
       <MeetFitwisePlatform />
       <div className="fitwise-landing-page-item" />
       <div className="learn-more">Learn more</div>
+
+      {/* IMAGE SECTION */}
       <FrameComponent1 />
+
+      {/* FOOTER SECTION */}
       <FrameComponent />
     </div>
   );

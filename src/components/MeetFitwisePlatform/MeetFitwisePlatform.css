@@ -121,7 +121,9 @@
   width: 1274px;
   flex-direction: row;
   align-items: flex-start;
+  /* margin-left: -20rem; */
   padding: 0 0 var(--padding-15xl) 0;
+  /* padding-inline-end: 20rem; */
   text-align: center;
   font-size: var(--font-size-25xl);
   color: var(--color-gray-100);

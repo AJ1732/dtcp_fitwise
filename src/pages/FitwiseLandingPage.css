@@ -136,7 +136,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-start;
   padding: 666px 0 28px var(--padding-3xl);
   box-sizing: border-box;

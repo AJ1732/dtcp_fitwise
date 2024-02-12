@@ -806,7 +806,7 @@
   flex-shrink: 0;
 }
 .rectangle {
-  width: 1314px;
+  /* width: 1314px; */
   flex-direction: row;
   align-items: flex-start;
   padding: 0;
@@ -823,7 +823,7 @@
     line-height: 43px;
   }
   .group-inner {
-    padding-right: var(--padding-85xl);
+    /* padding-right: var(--padding-85xl); */
     box-sizing: border-box;
   }
   .w-h-a-t-w-e-d-o-frame {
@@ -860,6 +860,7 @@
   .group-inner {
     padding-right: var(--padding-xl);
     box-sizing: border-box;
+    padding-top: 20rem;
   }
   .the-project-manager {
     font-size: var(--font-size-lgi);

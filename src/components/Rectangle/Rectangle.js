@@ -4,7 +4,9 @@ const Rectangle = () => {
   return (
     <section className="rectangle">
       <div className="group">
-        <div className="text-wrapper">
+        {/* PLACEHOLDER TO PREVENT BREAKING */}
+        <div className="text-wrapper"></div>
+        {/* <div className="text-wrapper">
           <div className="text">
             <div className="text-child" />
             <div className="become-smarter-parent">
@@ -20,7 +22,9 @@ const Rectangle = () => {
               src="/002positivethinking.svg"
             />
           </div>
-        </div>
+        </div> */}
+
+        {/* GRID SECTION */}
         <div className="group-inner">
           <div className="more-fulfilling-lifetime-exper-parent">
             <h1
