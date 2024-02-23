@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import "./GroupComponent.css";
+import { Link } from "react-router-dom";
 
 const GroupComponent = ({
   rEGISTER,
@@ -41,17 +42,19 @@ const GroupComponent = ({
   return (
     <div className="submit-button-shape-wrapper" style={groupDivStyle}>
       <div className="submit-button-shape" style={submitButtonShapeStyle}>
-        <button className="register-parent" style={frameButtonStyle}>
-          <div className="register">{rEGISTER}</div>
-          {showGroupIcon && (
-            <img
-              className="frame-child"
-              alt=""
-              src={group17379}
-              style={groupIconStyle}
-            />
-          )}
-        </button>
+        <Link to="/sign-up">
+          <button className="register-parent" style={frameButtonStyle}>
+            <div className="register">{rEGISTER}</div>
+            {showGroupIcon && (
+              <img
+                className="frame-child"
+                alt=""
+                src={group17379}
+                style={groupIconStyle}
+              />
+            )}
+          </button>
+        </Link>
       </div>
     </div>
   );

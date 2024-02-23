@@ -6,6 +6,7 @@ import FrameComponent1 from "../components/FrameComponent1/FrameComponent1";
 import FrameComponent from "../components/FrameComponent/FrameComponent";
 import "./FitwiseLandingPage.css";
 
+
 const FitwiseLandingPage = () => {
   return (
     <div className="fitwise-landing-page">

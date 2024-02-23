@@ -6,6 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import FitwiseLandingPage from "./pages/FitwiseLandingPage";
+import SignUp from "./pages/sign-up";
 
 function App() {
   const action = useNavigationType();
@@ -46,6 +47,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<FitwiseLandingPage />} />
+      <Route path="/sign-up" element={<SignUp />} />
     </Routes>
   );
 }
